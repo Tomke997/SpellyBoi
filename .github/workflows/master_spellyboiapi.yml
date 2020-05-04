@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'spellyboiapi'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_416459c8990947c5bc29d02e340bc200 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9ade6e7fe7cb45a59262ab5d4e419743 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
